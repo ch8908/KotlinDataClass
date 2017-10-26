@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KotlinDataClass</string>
+    <string name="age_is">%1$s 歲</string>
+</resources>
