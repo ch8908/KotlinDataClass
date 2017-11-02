@@ -14,8 +14,6 @@ data class User(
         @SerializedName("created_at") val createdAt: Date = Date()
 ) : AutoParcelable {
     fun updateAge(newAge: Int): User {
-        name.toUpperCase()
-        User()
         return copy(age = newAge)
     }
 }
